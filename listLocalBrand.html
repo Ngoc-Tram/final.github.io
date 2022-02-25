@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="header grid wide">
+        <div class="header__all row">
+            <div class="header__all-logo col l-2">
+                <img src="./assets/img/Asset-2.png" alt="">
+            </div>
+            <div class="header__all-banner col l-10">
+                <img src="./assets/img/qcao.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="menu grid wide">
+        <div class="menu__list row">
+            <div class="menu__list-item col l-10">
+                <li class="">
+                    <a href="./index.html">Trang chủ</a>
+                </li>
+                <li>
+                    <a href="./store.html">Cửa hàng</a>
+                </li>
+                <li>
+                    <a href="" class="active" style="color: red;">Local brand</a>
+                    <i class="fas fa-ellipsis-v"></i>
+                    <ul class="sub-nav">
+                        <li>Áo thun Local Brand</li>
+                        <li>Áo khoác Local Brand</li>
+                        <li>Ví Local Brand</li>
+                        <li>Nón Local Brand</li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="./glocalbrand.html">Global brand</a>
+                </li>
+                <li>
+                    <a href="./stylist.html">stylist</a>
+                </li>
+                <li>
+                    <a href="./news.html">Bài mới</a>
+                </li>
+            </div>
+            <div class="menu__list-item col l-2" style="justify-content: flex-end;">
+                <div class="menu__item-icon">
+                    <i class="fas fa-list"></i>
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- directional localbrand -->
+    <div class="grid wide">
+        <div class="directional row">
+            <div class="directional__heading col l-6 m-6 c-6">Danh sách các local brand Việt Nam</div>
+            <div class="directional__sub col l-6 m-6 c-6">
+                <a href="" class="directional__sub-home">Trang chủ</a>
+                <span>/</span>
+                <a href="">Danh sách các local brand Việt Nam</a>
+            </div>
+        </div>
+    </div>
+    <!-- local popular -->
+    <div class="grid wide">
+        <div class="popular row">
+            <div class="popular__clip"></div>
+            <div class="popular__icon col l-12 m-12 c-12">
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="popular__heading col l-12 m-12 c-12">
+                <h2>LOCAL BRAND NỔI TIẾNG GẦN ĐÂY</h2>
+            </div>
+            <div class="popular__list row">
+                <div class="popular__list-item col l-2 m-2 c-2">
+                    <div class="popular__item-hover">
+                        <img src="https://localbrand.vn/wp-content/uploads/2020/04/Logo-DKMV-220x220.jpg" alt="">
+                    </div>
+                    <p>GỢI Ý BRAND</p>
+                </div>
+                <div class="popular__list-item col l-2 m-2 c-2">
+                    <div class="popular__item-hover">
+                        <img src="https://localbrand.vn/wp-content/uploads/2020/04/Logo-UNCOVER-1-220x220.jpg" alt="">
+                    </div>
+                    <p>GỢI Ý BRAND</p>
+                </div>
+                <div class="popular__list-item col l-2 m-2 c-2">
+                    <div class="popular__item-hover">
+                        <img src="https://localbrand.vn/wp-content/uploads/2020/02/5d299aa86dfb34c8a07d1487876fb87c-300x300.jpg"
+                            alt="">
+                    </div>
+                    <p>GỢI Ý BRAND</p>
+                </div>
+                <div class="popular__list-item col l-2 m-2 c-2">
+                    <div class="popular__item-hover">
+                        <img src="https://localbrand.vn/wp-content/uploads/2020/02/58f3fc1cbf17800eaa34fec580ab9bb5-300x300.jpg"
+                            alt="">
+                    </div>
+                    <p>GỢI Ý BRAND</p>
+                </div>
+                <div class="popular__list-item col l-2 m-2 c-2">
+                    <div class="popular__item-hover">
+                        <img src="https://localbrand.vn/wp-content/uploads/2020/01/danh-sach-cac-local-brand-300x300.jpg"
+                            alt="">
+                    </div>
+                    <p>GỢI Ý BRAND</p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- local select -->
+    <div class="grid wide">
+        <div class="row selection">
+            <select name="DEFAULT SORTING" id="">
+                <option value="DEFAULT SORTING">DEFAULT SORTING</option>
+                <option value="SORT BY DATE">SORT BY DATE</option>
+                <option value="SORT BY DATE">SORT BY DATE</option>
+                <option value="SORT BY TITLE">SORT BY TITLE</option>
+                <option value="SORT BY TITLE">SORT BY TITLE</option>
+            </select>
+        </div>
+    </div>
+    <!-- list local brand -->
+    <div class="grid wide">
+        <div class="portfolio row">
+            <div class="portfolio__item col l-3 m-3 c-3">
+                <div class="portfolio__item-img">
+                    <img src="https://localbrand.vn/wp-content/uploads/2021/07/Wee-hours-local-brand-viet-nam-7-400x400.jpg" alt="">
+                    <div class="portfolio__item-overlay">
+                        <h2>W HIGH</h2>
+                        <div class="portfolio__overlay-view">
+                            <i class="fa-solid fa-eye"></i> 
+                            <p>107 View</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio__item col l-3 m-3 c-3">
+                <div class="portfolio__item-img">
+                    <img src="https://localbrand.vn/wp-content/uploads/2021/07/W-high-local-brand-5-400x400.jpg" alt="">
+                    <div class="portfolio__item-overlay">
+                        <h2>W HIGH</h2>
+                        <div class="portfolio__overlay-view">
+                            <i class="fa-solid fa-eye"></i> 
+                            <p>107 View</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio__item col l-3 m-3 c-3">
+                <div class="portfolio__item-img">
+                    <img src="https://localbrand.vn/wp-content/uploads/2022/01/Local-brand-Secodee-2-400x400.jpg" alt="">
+                    <div class="portfolio__item-overlay">
+                        <h2>W HIGH</h2>
+                        <div class="portfolio__overlay-view">
+                            <i class="fa-solid fa-eye"></i> 
+                            <p>107 View</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio__item col l-3 m-3 c-3">
+                <div class="portfolio__item-img">
+                    <img src="	https://localbrand.vn/wp-content/uploads/2022/01/Local-brand-FARELLO-2-400x400.jpg" alt="">
+                    <div class="portfolio__item-overlay">
+                        <h2>W HIGH</h2>
+                        <div class="portfolio__overlay-view">
+                            <i class="fa-solid fa-eye"></i> 
+                            <p>107 View</p>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+
+
+            <div class="portfolio__item col l-3 m-3 c-3">
+                <div class="portfolio__item-img">
+                    <img src="https://localbrand.vn/wp-content/uploads/2020/07/zxcasdagh-300x300.jpg" alt="">
+                    <div class="portfolio__item-overlay">
+                        <h2>W HIGH</h2>
+                        <div class="portfolio__overlay-view">
+                            <i class="fa-solid fa-eye"></i> 
+                            <p>107 View</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio__item col l-3 m-3 c-3">
+                <div class="portfolio__item-img">
+                    <img src="https://localbrand.vn/wp-content/uploads/2022/01/Local-brand-Emwear-10-400x400.jpg" alt="">
+                    <div class="portfolio__item-overlay">
+                        <h2>W HIGH</h2>
+                        <div class="portfolio__overlay-view">
+                            <i class="fa-solid fa-eye"></i> 
+                            <p>107 View</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio__item col l-3 m-3 c-3">
+                <div class="portfolio__item-img">
+                    <img src="https://localbrand.vn/wp-content/uploads/2020/04/Logo-TSUN-300x300.jpg" alt="">
+                    <div class="portfolio__item-overlay">
+                        <h2>W HIGH</h2>
+                        <div class="portfolio__overlay-view">
+                            <i class="fa-solid fa-eye"></i> 
+                            <p>107 View</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio__item col l-3 m-3 c-3">
+                <div class="portfolio__item-img">
+                    <img src="	https://localbrand.vn/wp-content/uploads/2021/07/Owen-local-brand-1-400x400.jpg" alt="">
+                    <div class="portfolio__item-overlay">
+                        <h2>W HIGH</h2>
+                        <div class="portfolio__overlay-view">
+                            <i class="fa-solid fa-eye"></i> 
+                            <p>107 View</p>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+
+
+
+            <div class="portfolio__item col l-3 m-3 c-3">
+                <div class="portfolio__item-img">
+                    <img src="	https://localbrand.vn/wp-content/uploads/2020/08/cym-clothing-logo-300x300.jpg" alt="">
+                    <div class="portfolio__item-overlay">
+                        <h2>W HIGH</h2>
+                        <div class="portfolio__overlay-view">
+                            <i class="fa-solid fa-eye"></i> 
+                            <p>107 View</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio__item col l-3 m-3 c-3">
+                <div class="portfolio__item-img">
+                    <img src="https://localbrand.vn/wp-content/uploads/2021/07/Angel-land-local-brand-viet-nam-12-400x400.jpg" alt="">
+                    <div class="portfolio__item-overlay">
+                        <h2>W HIGH</h2>
+                        <div class="portfolio__overlay-view">
+                            <i class="fa-solid fa-eye"></i> 
+                            <p>107 View</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio__item col l-3 m-3 c-3">
+                <div class="portfolio__item-img">
+                    <img src="https://localbrand.vn/wp-content/uploads/2022/01/Local-brand-Secodee-2-400x400.jpg" alt="">
+                    <div class="portfolio__item-overlay">
+                        <h2>W HIGH</h2>
+                        <div class="portfolio__overlay-view">
+                            <i class="fa-solid fa-eye"></i> 
+                            <p>107 View</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio__item col l-3 m-3 c-3">
+                <div class="portfolio__item-img">
+                    <img src="https://localbrand.vn/wp-content/uploads/2021/12/Local-brand-69Daydreams-2-400x400.jpg" alt="">
+                    <div class="portfolio__item-overlay">
+                        <h2>W HIGH</h2>
+                        <div class="portfolio__overlay-view">
+                            <i class="fa-solid fa-eye"></i> 
+                            <p>107 View</p>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+
+    <!-- load more -->
+    <div class="grid wide">
+        <div class="more row">
+            <button class="more__btn">Load More</button>
+        </div>
+    </div>
+
+    <!-- populated -->
+    <div class="grid wide">
+        <div class="populated row">
+            <div class="col l-6 m-6 c-6">
+                <h2 class="populated__title">TẤT CẢ LOCAL BRAND VIỆT NAM - ĐƯỢC XÁC THỰC</h2>
+                <div class="populated__text">
+                    <p>Tất cả <b>Local Brand Việt Nam</b> được đăng tải tại danh sách này đều đã được đội ngũ biên tập của chúng tôi chọn lọc.
+                        <br>
+                        <b>Danh sách các Local Brand</b> có thể thay đổi theo thời gian và <b>LOCALBRAND</b>.VN không chịu trách nhiệm về việc này.
+                    </p>
+                    <p><b>Một số Local Brand</b> nếu chưa được cập nhật, vui lòng liên hệ để được cập nhật vào danh sách này <b>hoàn toàn miễn phí.</b></p>
+                        
+                </div>
+            </div>
+            <div class="col l-6 m-6 c-6">
+                <h2 class="populated__title">DANH SÁCH CÁC LOCAL BRAND NỔI TIẾNG</h2>
+                <div class="populated__text">
+                    <p>Tất cả <b>Local Brand Việt Nam</b> được đăng tải tại đây theo các tiêu chí của <b>LOCALBRAND.VN.</b> 
+                    </p>
+                    <ul>
+                        <li>Độ nổi tiếng và có lược theo dõi trên MXH.</li>
+                        <li>Số lượng và chất lương sản phẩm đạt tiêu chuẩn</li>
+                        <li>Đăng ký thương hiệu và kinh doanh hợp pháp.</li>
+                        <li>Có lịch sử bán hàng và uy tín.</li>
+                    </ul>
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer grid wide">
+        <div class="footer__list row">
+            <div class="footer__list-item col l-4 m-4">
+                <h2 class="footer__item-heading">
+                    <div class="active-heading">Cập nhật brand của bạn</div>
+                </h2>
+
+                <br />
+                <p class="title">Tiếp cận hơn 1 triệu khách hàng.</p>
+                <br />
+                <p>Nếu bạn đang sở hữu thương hiệu thì vui lòng nhanh chóng
+                    email về <b>localbrand.vnn@gmail.com </b>để được chúng tôi cập nhật lên danh bạ
+
+                </p>
+                <br />
+                <p>
+                    <em>Các Influencer, Kols hoặc Model có thể đăng tải bạn lên trang của chúng tôi để các brand có thể
+                        tìm thấy sự hợp tác.</em>
+                </p>
+                <br>
+                <a class="quote" href="#">LEARN MORE</a>
+                <br />
+                <div class="footer__icon">
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-pinterest-p"></i>
+                    </a>
+                </div>
+
+
+            </div>
+            <div class="footer__list-item col l-4 m-4">
+                <h2 class="footer__item-heading">
+                    <div class="active-heading">Từ khóa hot</div>
+
+                </h2>
+                <br />
+                <div class="tag_loud" margin-top:-20px>
+                    <a href="#">#local brand</a>
+                    <a href="#">#local brand bán áo sơ mi</a>
+                    <a href="#">#local brand dkmv</a>
+                    <a href="#">#local brand là gì</a>
+                    <a href="#">#local brand giá rẻ</a>
+                    <a href="#">#local brand đà nẵng</a>
+                    <a href="#">#phong cách local brand</a>
+                    <a href="#">#local brand nữ</a>
+                    <a href="#">#local brand ontop</a>
+                    <a href="#">#local brand viet nam</a>
+                    <a href="#">#local brand intagram</a>
+
+                </div>
+            </div>
+            <div class="footer__list-item col l-4 m-4">
+                <h2 class="footer__item-heading">
+                    <div class="active-heading">Danh Mục</div>
+
+                </h2>
+                <ul class="text">
+                    <li><a href="#">bài mới</a><span class="count">208</span></li>
+                    <li><a href="#">giá rẻ</a><span class="count">1</span></li>
+                    <li><a href="#">giày</a><span class="count">25</span></li>
+                    <li><a href="#">global brand</a><span class="count">52</span></li>
+                    <li><a href="#">local brand</a><span class="count">87</span></li>
+                    <li><a href="#">mẹo vặt</a><span class="count">1</span></li>
+                    <li><a href="#">phối đồ</a><span class="count">20</span></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
